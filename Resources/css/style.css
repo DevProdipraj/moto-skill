@@ -1,0 +1,1642 @@
+
+ /* BASE CSS  */
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+html{
+    font-size: 62.2%;
+    scroll-behavior: smooth;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#active{
+    background-color: red !important;
+    color: #fff !important;
+}
+.color1{
+    color: #FCB116;
+}
+.color2{
+    color: #AA7A5A;
+}
+.extra-padding{
+    padding: 5px 10px !important;
+}
+#extra-padding2{
+    padding: 5px 11px !important;
+}
+/* adding all font */
+/* ===================================== */
+@font-face{
+    font-family: 'Arimo';
+    src: url(../fonts/Arimo-Regular.ttf);
+}
+@font-face{
+    font-family: 'Robaga';
+    src: url(../fonts/Robaga\ Rounded\ Bold.otf);
+}
+@font-face{
+    font-family: 'Vag';
+    src: url(../font/VAG\ Rounded\ Bold.ttf);
+}
+@font-face{
+    font-family: 'Markup';
+    src: url(../font/Markup\ W00\ Regular.ttf);
+}
+
+
+/* page 1 css start  */
+/* ==================== */
+#bg_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -111111;
+}
+.page_top_title{
+    font-size: 19px;
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+    color: #754D25;
+    font-weight: 600;
+}
+.footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 52%;
+    transform: translate(-50%);
+    color: #754D25;
+    font-weight: 600S;
+    text-align: center;
+}
+#page_bottom_title {
+    font-size: 19px;
+    font-weight: 600;
+}
+.page_header_text{
+    /* position: absolute; */
+    /* top: 6rem; */
+    /* left: 31%; */
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: 'Vag';
+    color: #ED1C24;
+    margin-top: 5.5rem;
+}
+#notice_btn{
+    position: absolute;
+    top: 13rem;
+    left: 51%;
+    transform: translate(-50%);
+}
+.page1_text {
+    position: absolute;
+    top: 20.5rem;
+    width: 87rem;
+    margin: 0 auto;
+    left: 36rem;
+}
+.notice_btn {
+    color: #fff;
+    padding: 3px 40px;
+    background: #ED1C24;
+    border: none;
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 35px;
+    border-radius: 24px;
+    font-weight: 600;
+    font-family: 'Vag';
+}
+.page1_text > p {
+    font-size: 19px;
+    text-align: center;
+    margin: 10px 0px;
+    color: #754D25;
+    font-weight: 600;
+}
+.page_link > a {
+    font-size: 18px;
+    border: 2px solid #ED1C24;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 8px;
+    margin: 0px 5px;
+    color: #000;
+    font-weight: 600;
+}
+
+.page_link {
+    margin-bottom: 1.3rem;
+}
+#prev_page{
+    position: absolute;
+    top: 44%;
+    font-size: 8rem;
+    left: 4rem;
+    transform: translate(-50%);
+    color: #000;
+    opacity: 20%;
+    transition: 0.5s;
+}
+#next_page{
+    position: absolute;
+    top: 44%;
+    transform: translate(-50%);
+    font-size: 8rem;
+    color: #000;
+    right: 0rem;
+    opacity: 20%;
+    transition: 0.5s;
+}
+/* this css for animation  */
+/* .containers{
+    display: none;
+} */
+
+
+/* page 2 css start  */
+.page2Header{
+    left: 36%;
+}
+.left-arrow > img {
+    position: absolute;
+    top: 18rem;
+    z-index: -111;
+    width: 54rem;
+}
+.baby1 > img {
+    position: absolute;
+    top: 32rem;
+    left: 57rem;
+    width: 16rem;
+    transition: all 0.3s linear;
+}
+.baby1 > img:hover,
+.baby2 > img:hover,
+.baby3 > img:hover,
+.baby4 > img:hover
+{
+    transform: scale(1.2);
+}
+.baby2 > img {
+    position: absolute;
+    width: 20;
+    width: 14rem;
+    left: 80.5rem;
+    top: 21rem;
+    transition: all 0.3s linear;
+}
+.baby3 > img {
+    position: absolute;
+    top: 35rem;
+    right: 48rem;
+    width: 8rem;
+    transition: all 0.3s linear;
+}
+.baby4 > img {
+    width: 10rem;
+    position: absolute;
+    top: 43rem;
+    left: 79rem;
+    transition: all 0.3s linear;
+}
+.right-arrow > img {
+    position: absolute;
+    right: 1.5rem;
+    top: 48rem;
+    z-index: -111;
+    width: 56.5rem;
+}
+.baby1-text > h2 {
+    font-size: 3rem;
+    position: absolute;
+    left: 32rem;
+    top: 33rem;
+    font-weight: 600;
+    color: #C62355;
+    font-family: 'Markup';
+    font-weight: 400;
+}
+.baby2-text > h2 {
+    font-size: 3rem;
+    width: 64rem;
+    position: absolute;
+    bottom: 11rem;
+    left: 45.5rem;
+    font-family: 'Markup';
+    font-weight: 400;
+    color: #BBB239;
+}
+.baby3-text > h2 {
+    font-size: 3rem;
+    position: absolute;
+    right: 32rem;
+    bottom: 16rem;
+    width: 24rem;
+    font-family: 'Markup';
+    font-weight: 400;
+    color: #FCB116;
+}
+.baby4-text > h2 {
+    font-size: 3rem;
+    position: absolute;
+    top: 16rem;
+    right: 28rem;
+    width: 29rem;
+    font-family: 'Markup';
+    font-weight: 400;
+    color: #00A2DD;
+    /* text-align: left; */
+}
+.baby1 > img:hover,
+.baby2 > img:hover,
+.baby3 > img:hover,
+.baby4 > img:hover{
+    cursor: pointer;
+}
+.baby1-text,
+.baby2-text,
+.baby3-text,
+.baby4-text{
+    display: none;
+    /* text-align: left; */
+}
+.display{
+    display: block;
+}
+.top{
+    z-index: 99999999999;
+}
+
+
+
+/* page 3 css start  */
+.page3Header {
+    position: absolute;
+    left: 35rem;
+    top: 1rem;
+    width: 85rem;
+    /* margin-bottom: 0rem; */
+}
+.page3content1 > img {
+    width: 13rem;
+    position: absolute;
+    top: 28rem;
+    left: 64rem;
+    transition: all 0.3s linear;
+}
+.page3content2 > img {
+    width: 14rem;
+    position: absolute;
+    bottom: 21rem;
+    right: 58rem;
+    /* top: 41rem; */
+    transition: all 0.3s linear;
+}
+.page3content3 > img {
+    position: absolute;
+    left: 66rem;
+    bottom: 15rem;
+    width: 7rem;
+    transition: all 0.3s linear;
+}
+.page3-left-arrow > img {
+    width: 59rem;
+    position: absolute;
+    top: 20rem;
+    left: 21re;
+    z-index: -14;
+}
+.page3right-arrow > img {
+    position: absolute;
+    right: 0;
+    top: 47rem;
+    width: 54.7rem;
+    z-index: -111;
+}
+.page3text1 > h2 {
+    font-size: 3rem;
+    position: absolute;
+    left: 30rem;
+    top: 32rem;
+    width: 28rem;
+    text-align: right;
+    font-family: 'Markup';
+    font-weight: 400;
+    color: #C62355;
+}
+h2.page3text3.text_2 {
+    font-size: 3rem;
+    position: absolute;
+    right: 19rem;
+    top: 30rem;
+    width: 37rem;
+    font-family: 'Markup';
+    font-weight: 400;
+    color: #FCB116;
+}
+h2.page3text2.text_3{
+    font-size: 3rem;
+    position: absolute;
+    top: 49rem;
+    left: 31.5rem;
+    width: 30rem;
+    text-align: right;
+    font-family: 'Markup';
+    font-weight: 400;
+    color: #754D25;
+}
+.page3img1:hover,
+.page3img2:hover,
+.page3img3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.add{
+    transform: scale(1.2);
+}
+
+/* page4 css start  */
+/* ====================== */
+.page4-content {
+    position: absolute;
+    top: 16rem;
+    left: rem;
+    left: 38rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content1 > img {
+    width: 25rem;
+    margin-top: 2rem;
+    transition: 0.3s linear;
+    margin-left: 13rem;
+}
+.content1 > img:hover,
+.content2 > img:hover,
+.content3 > img:hover
+{
+    transform: scale(1.1);
+}
+.page4Content-left {
+    margin: 0rem 0rem;
+}
+
+.content2 > img {
+    width: 28rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s linear;
+    margin-left: 4rem;
+}
+.content3 > img {
+    width: 28rem;
+    margin-top: 20px;
+    transition: all 0.3s linear;
+    margin-left: 4rem;
+}
+
+
+
+/* page 5 css start  */
+/* ========================== */
+#page5Header {
+    margin-top: 14rem;
+}
+.page5SubTitle > h2 {
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 5rem;
+    left: 35rem;
+    color: #754D25;
+    font-family: 'Arimo';
+    font-family: 'Vag';
+    font-weight: 400;
+}
+.page5Bottom-line > img {
+    position: absolute;
+    bottom: 19rem;
+    left: 18rem;
+    width: 131rem;
+    z-index: -11;
+}
+img.page5baby1 {
+    width: 13rem;
+    position: absolute;
+    left: 25rem;
+    bottom: 16rem;
+    cursor: pointer;
+}
+img.page5baby2 {
+    width: 13rem;
+    position: absolute;
+    left: 48rem;
+    bottom: 19.5rem;
+    /* top: 44%; */
+    cursor: pointer;
+}
+img.page5baby3 {
+    width: 18rem;
+    position: absolute;
+    bottom: 19.5rem;
+    left: 67rem;
+    cursor: pointer;
+}
+img.page5baby4 {
+    width: 18rem;
+    position: absolute;
+    bottom: 19.5rem;
+    cursor: pointer;
+    right: 47rem;
+}
+img.page5baby5 {
+    width: 12rem;
+    position: absolute;
+    bottom: 20rem;
+    right: 25rem;
+    cursor: pointer;
+}
+.step-all-btn {
+    position: absolute;
+    bottom: 17rem;
+}
+.stepbtn1,
+.stepbtn2,
+.stepbtn3,
+.stepbtn4,
+.stepbtn5{
+    background: transparent;
+    border: none;
+    padding: 0px 20px;
+    font-size: 27px;
+    border-radius: 22px;
+    border: 1px solid #754D25;
+    margin: 0px 12px;
+    color: #ED1C24;
+    font-family: 'Vag';
+    font-weight: 600;
+}
+input.stepbtn1 {
+    position: absolute;
+    left: 28rem;
+}
+
+input.stepbtn2 {
+    position: absolute;
+    left: 48rem;
+}
+
+input.stepbtn3 {
+    position: absolute;
+    left: 69rem;
+}
+
+input.stepbtn4 {
+    position: absolute;
+    left: 91rem;
+    /* right: -1rem; */
+}
+
+input.stepbtn5 {
+    position: absolute;
+    left: 115rem;
+}
+
+
+
+/* page 11 css start  */
+.page11_main-content {
+    position: absolute;
+    left: -2rem;
+    top: 18rem;
+}
+
+.page11-left-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30.5rem;
+    margin-top: -3rem;
+}
+.page11-left-content > img {
+    width: 8rem;
+    margin: 1rem 0rem;
+    margin-right: -2rem;
+}
+.page11-right-content > img {
+    width: 30rem;
+}
+img.page11-main-img1 {
+    position: absolute;
+    top: 0rem;
+    left: 39rem;
+    height: 40rem;
+    width: 25rem;
+}
+
+img.page11-main-img2 {
+    position: absolute;
+    top: 0rem;
+    left: 58rem;
+    width: 29rem;
+    height: 43rem;
+}
+
+img.page11-main-img3 {
+    position: absolute;
+    top: 0rem;
+    left: 75rem;
+    height: 40rem;
+    width: 29rem;
+}
+
+img.page11-main-img4 {
+    position: absolute;
+    top: 0rem;
+    height: 40rem;
+    width: 31rem;
+    left: 93.5rem;
+}
+
+img.page11-main-img5 {
+    position: absolute;
+    top: 0rem;
+    left: 113.5rem;
+    width: 29rem;
+    height: 40rem;
+}
+.page11-footer {
+    position: absolute;
+    bottom: 7rem;
+}
+.pf-dosc1 {
+    position: absolute;
+    top: -12rem;
+    left: 37rem;
+    display: flex;
+    align-items: center;
+}
+
+.pf-dosc2 {
+    position: absolute;
+    top: -13rem;
+    left: 57.5rem;
+}
+
+.pf-dosc3 {
+    position: absolute;
+    top: -12rem;
+    left: 76rem;
+    align-items: center;
+    display: flex;
+}
+
+.pf-dosc4 {
+    position: absolute;
+    top: -13rem;
+    left: 96rem;
+}
+.pf-dosc5 {
+    position: absolute;
+    top: -13rem;
+    left: 115rem;
+}
+.pf-dosc1 > img {
+    width: 4rem;
+}
+.pf-dosc3,
+.pf-dosc1{
+    display: flex;
+    align-items: center;
+}
+
+.pf-dosc1 > p {
+    font-size: 15px;
+    width: 10rem;
+    margin-left: 15px;
+    font-family: 'Arimo';
+    font-weight: 600;
+    color: #754D25;
+}
+
+.pf-dosc2 > img {
+    width: 13rem;
+    margin-top: 1rem;
+}
+
+.pf-dosc3 > img {
+    width: 4rem;
+}
+
+.pf-dosc3 > p {
+    font-size: 18px;
+    width: 9rem;
+    margin-left: 15px;
+    font-family: 'Arimo';
+    font-weight: 600;
+    color: #754D25;
+}
+
+.pf-dosc4 > img {
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+.pf-dosc5 > p {
+    font-size: 16px;
+    width: 13rem;
+    font-family: 'Arimo';
+    font-weight: 600;
+    color: #754D25;
+}
+
+
+
+
+/* PAGE 12   css start  */
+input.reference-btn {
+    padding: 3px 90px;
+    position: absolute;
+    font-size: 35px;
+    border: none;
+    top: 7rem;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    background: red;
+    color: #FFF;
+    font-family: 'Arimo';
+    font-weight: 600;
+}
+.page12-content {
+    position: absolute;
+    top: 14rem;
+    left: 25rem;
+    width: 114rem;
+}
+
+.page12-content > p {
+    font-size: 13px;
+    color: #754D25;
+    font-weight: 600;
+}
+
+
+
+/* step 1 page css  */
+.header-img > img {
+    width: 51rem;
+    position: absolute;
+    left: 52rem;
+    top: 5rem;
+}
+.steo1page-main-content {
+    display: flex;
+}
+img.step1-sideimg1 {
+    position: absolute;
+    top: 24rem;
+    left: 52rem;
+    width: 11rem;
+}
+
+img.step1-sideimg2 {
+    position: absolute;
+    top: 38rem;
+    width: 11rem;
+    left: 52rem;
+    /* margin: 15px 0px; */
+}
+
+img.step1-sideimg3 {
+    position: absolute;
+    top: 52rem;
+    width: 11rem;
+    left: 52rem;
+}
+.line-container > img {
+    width: 26px;
+    position: absolute;
+    left: 52rem;
+    top: 20rem;
+}
+.step1-page-arrow {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 21rem;
+    left: 53rem;
+}
+img.step1pagearrow1 {
+    width: 9rem;
+    position: absolute;
+    top: 3.2rem;
+    left: 4rem;
+}
+
+img.step1pagearrow2 {
+    position: absolute;
+    top: 16.5rem;
+    width: 14rem;
+    left: 4rem;
+}
+
+img.step1pagearrow3 {
+    position: absolute;
+    top: 33rem;
+    left: 4rem;
+    width: 24rem;
+}
+.step1-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35rem;
+    left: 82rem;
+}
+img.step1-content1 {
+    position: absolute;
+    top: -16rem;
+    width: 30rem;
+    left: -15rem;
+}
+
+img.step1-content2 {
+    position: absolute;
+    top: -2rem;
+    left: -10rem;
+    width: 36rem;
+}
+
+img.step1-content3 {
+    position: absolute;
+    top: 13.5rem !important;
+    left: 0rem;
+    width: 35rem !important;
+}
+#width{
+    width: 45rem;
+    top: -2rem;
+}
+#width2{
+    width: 49rem !important;
+    top: -16rem;
+}
+.pf-dosc3 {
+    display: flex !important;
+    align-items: center;
+}
+
+.pf-dosc1 {
+    display: flex !important;
+    align-items: c;
+}
+
+
+
+.step1-sideimg1:focus,
+.step1-sideimg2:focus,
+.step1-sideimg3:focus{
+    transform: scale(1.2);
+}
+#prev_page:hover{
+    color: #C62355;
+    opacity: 100%;
+}
+#next_page:hover{
+    color: #C62355;
+    opacity: 100%;
+}
+
+
+img.babyimg-1 {
+    position: absolute;
+    top: 30%;
+    width: 25rem;
+    z-index: -11;
+    left: 34.5%;
+}
+
+img.babyimg-2 {
+    position: absolute;
+    top: 52%;
+    left: 47%;
+    z-index: -11;
+    width: 24rem;
+}
+
+img.babyimg-3 {
+    position: absolute;
+    top: 22%;
+    right: 36%;
+    width: 22rem;
+    z-index: -11;
+}
+
+img.babyimg-4 {
+    position: absolute;
+    top: 43.3%;
+    right: 28.4%;
+    width: 17rem;
+    z-index: -11;
+}
+
+.page3_bg-img {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+}
+
+img.page3-bg-img1 {
+    position: absolute;
+    top: 29%;
+    left: 37.8%;
+    z-index: -11;
+    width: 23rem;
+}
+
+img.page3-bg-img2 {
+    position: absolute;
+    top: 47%;
+    right: 35%;
+    z-index: -22;
+    width: 23rem;
+}
+img.page3-bg-img33 {
+    position: absolute;
+    bottom: 16%;
+    left: 40%;
+    z-index: -11;
+    width: 17rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-arrow{
+    display: none;
+}
+.baby1,
+.baby2,
+.baby3,
+.baby4
+{
+   opacity: 0;
+   transition: all 0.5s linear;
+}
+.babyimg-1,
+.babyimg-2,
+.babyimg-3,
+.babyimg-4
+{
+   opacity: 0;
+   transition: all 0.5s linear;
+}
+
+.right-arrow{
+    opacity: 0;
+}
+
+.page3-left-arrow{
+   opacity: 0;
+}
+.page3img1,
+.page3img2,
+.page3img3{
+   opacity: 0;
+}
+
+.page3-bg-img1,
+.page3-bg-img2,
+.page3-bg-img33{
+    opacity: 0;
+}
+.page3right-arrow{
+    opacity: 0;
+}
+
+
+.page3text1,
+.page3text2,
+.page3text3{
+    display: none;
+}
+
+.content1,
+.content2,
+.content3{
+    display: none;
+}
+
+.page5baby1,
+.page5baby2,
+.page5baby3,
+.page5baby4,
+.page5baby5,
+.page5Bottom-line,
+.step-all-btn{
+    display: none;
+}
+
+.header-img{
+    display: none;
+}
+
+.step1-sideimg1,
+.step1-sideimg2,
+.step1-sideimg3,
+.line-container,
+.step1pagearrow1,
+.step1pagearrow2,
+.step1pagearrow3,
+.step1-content1,
+.step1-content2,
+.step1-content3
+{
+    display: none;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.step1-sideimg1:hover,
+.step1-sideimg2:hover,
+.step1-sideimg3:hover{
+    transform: scale(1.1);
+}
+
+.step1-content1:hover,
+.step1-content2:hover,
+.step1-content3:hover{
+    margin-left: 1.5rem !important;
+}
+
+
+.page11-side-img1,
+.page11-side-img2,
+.page11-side-img3,
+.page11-main-img1,
+.page11-main-img2,
+.page11-main-img3,
+.page11-main-img4,
+.page11-main-img5
+{
+    cursor: pointer;
+    display: none;
+    transition: all 0.3s linear;
+}
+
+
+.page11-main-img1:hover,
+.page11-main-img2:hover,
+.page11-main-img3:hover,
+.page11-main-img4:hover,
+.page11-main-img5:hover{
+    margin-top: 1.5rem;
+}
+
+.page11-footer{
+    display: none;
+}
+
+
+#pag2-title2{
+    margin-left: 6rem;
+}
+.page11-footer{
+   display: none;
+}
+
+
+#pag2-title2{
+   margin-left: 6rem;
+}
+.page11-main-img2:hover,
+.page11-main-img3:hover,
+.page11-main-img4:hover,
+.page11-main-img5:hover{
+    margin-top: 1.5rem;
+}
+
+.page11-footer{
+    display: none;
+}
+
+
+#pag2-title2{
+    margin-left: 6rem;
+}
+#step4pagec3{
+    top: 25rem;
+    left: -3rem;
+}
+
+#steppagec3{
+    left: -8rem;
+    width: 42rem !important;
+    top: 11rem !important;
+}
+#step5pagec3{
+    top: 14rem !important;
+    width: 41rem !important;
+}
+.page5baby1{
+    transition: all 0.3s linear;
+}
+.page5baby2{
+    transition: all 0.3s linear;
+}
+.page5baby3{
+    transition: all 0.3s linear;
+}
+.page5baby4{
+    transition: all 0.3s linear;
+}
+.page5baby5{
+    transition: all 0.3s linear;
+}
+
+
+.page5baby1:hover,
+.page5baby2:hover,
+.page5baby3:hover,
+.page5baby4:hover,
+.page5baby5:hover
+{
+    transform: scale(1.1);
+}
+.stepPage2C2{
+    width: 53rem !important;
+}
+
+.stepPage2C1{
+    width: 28rem !important;
+    margin-top: -0.5rem;
+}
+.stepPage3C2{
+    width: 50rem !important;
+    top: -2.5rem !important;
+}
+.stepPage4C3{
+    width: 32rem !important;
+    top: 13rem !important;
+    left: 0.5rem !important;
+}
+.page11-right-content {
+    position: absolute;
+    top: -5rem;
+    left: -5rem;
+}
+.step1pageleft {
+    position: absolute;
+    top: -4rem;
+    left: -11rem;
+}
+.stepPC1 {
+    top: -15rem !important;
+}
+.baby1 > img {
+    position: absolute;
+    top: 27rem;
+    left: 59rem;
+    width: 14rem;
+    transition: all 0.3s linear;
+}
+.page5SubTitle > h2 {
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 9rem;
+    left: 35rem;
+    color: #754D25;
+    font-family: 'Arimo';
+    font-family: 'Vag';
+    font-weight: 400;
+}
+.stepP5C1 {
+    width: 31rem !important;
+    top: -15rem !important;
+}
+
+img#width {}
+
+.stepP5C2 {
+    width: 51rem !important;
+}
+.stepPage4C1 {
+    width: 45rem !important;
+}
+
+.stepPage4C2 {
+    width: 50rem !important;
+}
+
+
+.step1-content3 {
+    position: absolute;
+    top: 13.5rem !important;
+    left: 2rem;
+    width: 35rem !important;
+}
+
+/* responsibe css start  */
+/* ================================ */
+@media (min-height:760px){
+    .page1_text {
+        position: absolute;
+        top: 30.5rem;
+        width: 87rem;
+        margin: 0 auto;
+        left: 36rem;
+    }
+    #notice_btn {
+        position: absolute;
+        top: 19rem;
+        left: 51%;
+        transform: translate(-50%);
+    }
+    .page_header_text {
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: 600;
+        font-family: 'Vag';
+        color: #ED1C24;
+        margin-top: 8.5rem;
+    }
+
+
+    /* for page 2  */
+    .left-arrow > img {
+        position: absolute;
+        top: 21rem;
+        z-index: -111;
+        width: 54rem;
+    }
+    .baby1 > img {
+        position: absolute;
+        top: 31rem;
+        left: 59rem;
+        width: 14rem;
+        transition: all 0.3s linear;
+    }
+    .baby1-text > h2 {
+        font-size: 3rem;
+        position: absolute;
+        left: 32rem;
+        top: 38rem;
+        font-weight: 600;
+        color: #C62355;
+        font-family: 'Markup';
+        font-weight: 400;
+    }
+    .baby2 > img {
+        position: absolute;
+        width: 20;
+        width: 14rem;
+        left: 80.5rem;
+        top: 24rem;
+        transition: all 0.3s linear;
+    }
+    img.babyimg-3 {
+        position: absolute;
+        top: 26%;
+        right: 36%;
+        width: 22rem;
+        z-index: -11;
+    }
+    img.babyimg-2 {
+        position: absolute;
+        top: 51%;
+        left: 46%;
+        z-index: -11;
+        width: 24rem;
+    }
+    .baby2 > img {
+        position: absolute;
+        width: 20;
+        width: 14rem;
+        left: 80.5rem;
+        top: 27rem;
+        transition: all 0.3s linear;
+    }
+    .baby4-text > h2 {
+        font-size: 3rem;
+        position: absolute;
+        top: 21rem;
+        right: 28rem;
+        width: 29rem;
+        font-family: 'Markup';
+        font-weight: 400;
+        color: #00A2DD;
+        /* text-align: left; */
+    }
+    .baby4 > img {
+        width: 10rem;
+        position: absolute;
+        top: 49rem;
+        left: 77rem;
+        transition: all 0.3s linear;
+    }
+    .baby2-text > h2 {
+        font-size: 3rem;
+        width: 64rem;
+        position: absolute;
+        bottom: 17rem;
+        left: 45.5rem;
+        font-family: 'Markup';
+        font-weight: 400;
+        color: #BBB239;
+    }
+    .right-arrow > img {
+        position: absolute;
+        right: 3.5rem;
+        top: 58rem;
+        z-index: -111;
+        width: 56.5rem;
+    }
+    img.babyimg-4 {
+        position: absolute;
+        top: 45.3%;
+        right: 28.8%;
+        width: 17rem;
+        z-index: -11;
+    }
+    .baby3 > img {
+        position: absolute;
+        top: 42rem;
+        right: 48rem;
+        width: 8rem;
+        transition: all 0.3s linear;
+    }
+    .baby3-text > h2 {
+        font-size: 3rem;
+        position: absolute;
+        right: 34rem;
+        bottom: 22rem;
+        width: 24rem;
+        font-family: 'Markup';
+        font-weight: 400;
+        color: #FCB116;
+    }
+    /* for page 3  */
+    .page3-left-arrow > img {
+        width: 59rem;
+        position: absolute;
+        top: 23rem;
+        left: 21re;
+        z-index: -14;
+    }
+    img.page3-bg-img1 {
+        position: absolute;
+        top: 29%;
+        left: 37.8%;
+        z-index: -11;
+        width: 25rem;
+    }
+    .page3content1 > img {
+        width: 14rem;
+        position: absolute;
+        top: 31rem;
+        left: 64rem;
+        transition: all 0.3s linear;
+    }
+    img.page3-bg-img2 {
+        position: absolute;
+        top: 47%;
+        right: 34.5%;
+        z-index: -22;
+        width: 23rem;
+    }
+    .page3content2 > img {
+        width: 14rem;
+        position: absolute;
+        bottom: 28rem;
+        right: 58rem;
+        /* top: 41rem; */
+        transition: all 0.3s linear;
+    }
+    .page3right-arrow > img {
+        position: absolute;
+        right: 0;
+        top: 52rem;
+        width: 53.7rem;
+        z-index: -111;
+    }
+    img.page3-bg-img33 {
+        position: absolute;
+        bottom: 20%;
+        left: 39.5%;
+        z-index: -11;
+        width: 19rem;
+    }
+    .page3content3 > img {
+        position: absolute;
+        left: 66rem;
+        bottom: 21rem;
+        width: 7rem;
+        transition: all 0.3s linear;
+    }
+    .page3text1 > h2 {
+        font-size: 3rem;
+        position: absolute;
+        left: 30rem;
+        top: 35rem;
+        width: 28rem;
+        text-align: right;
+        font-family: 'Markup';
+        font-weight: 400;
+        color: #C62355;
+    }
+    h2.page3text2.text_3 {
+        font-size: 3rem;
+        position: absolute;
+        top: 55rem;
+        left: 31rem;
+        width: 30rem;
+        text-align: right;
+        font-family: 'Markup';
+        font-weight: 400;
+        color: #754D25;
+    }
+    .page3text1 > h2 {
+        font-size: 3rem;
+        position: absolute;
+        left: 30rem;
+        top: 35rem;
+        width: 28rem;
+        text-align: right;
+        font-family: 'Markup';
+        font-weight: 400;
+        color: #C62355;
+    }
+    h2.page3text3.text_2 {
+        font-size: 3rem;
+        position: absolute;
+        right: 18rem;
+        top: 36rem;
+        width: 37rem;
+        font-family: 'Markup';
+        font-weight: 400;
+        color: #FCB116;
+    }
+    /* for page 4  */
+    .content1 > img {
+        width: 27rem;
+        margin-top: 2rem;
+        transition: 0.3s linear;
+        margin-left: 13rem;
+    }
+    .content2 > img {
+        width: 30rem;
+        margin-bottom: 1rem;
+        transition: all 0.3s linear;
+        margin-left: 4rem;
+    }
+    .content3 > img {
+        width: 30rem;
+        margin-top: 20px;
+        transition: all 0.3s linear;
+        margin-left: 4rem;
+    }
+    .page4-content {
+        position: absolute;
+        top: 23rem;
+        left: rem;
+        left: 38rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* for page 6  */
+    img.step1-sideimg1 {
+        position: absolute;
+        top: 24rem;
+        left: 52rem;
+        width: 13rem;
+    }
+    img.step1-sideimg2 {
+        position: absolute;
+        top: 41rem;
+        width: 13rem;
+        left: 52rem;
+        /* margin: 15px 0px; */
+    }
+    img.step1-sideimg3 {
+        position: absolute;
+        top: 58rem;
+        width: 13rem;
+        left: 52rem;
+    }
+    .line-container > img {
+        width: 32px;
+        position: absolute;
+        left: 55rem;
+        top: 20rem;
+    }
+    img.step1pagearrow1 {
+        width: 9rem;
+        position: absolute;
+        top: 4.7rem;
+        left: 6rem;
+    }
+    img.step1pagearrow2 {
+        position: absolute;
+        top: 21.5rem;
+        width: 14rem;
+        left: 6rem;
+    }
+    img.step1pagearrow3 {
+        position: absolute;
+        top: 41rem;
+        left: 6rem;
+        width: 24rem;
+    }
+    img.step1-content1 {
+        position: absolute;
+        top: -14rem !important;
+        width: 34rem !important;
+        left: -13rem;
+    }
+    img#page1c2 {
+        top: 3rem !important;
+        left: -9rem !important;
+    }
+    .stepPage2C2 {
+        width: 64rem !important;
+        top: 7rem;
+        top: 2rem !important;
+        left: -8rem !important;
+    }
+    .stepPage2C1 {
+        width: 33rem !important;
+        margin-top: -0.5rem;
+    }
+    #steppagec3 {
+        left: -8rem;
+        width: 50rem !important;
+        top: 17rem !important;
+    }
+    .stepPage3C2 {
+        width: 54rem !important;
+        top: 2rem !important;
+    }
+    .stepPage3C1 {
+        width: 34rem !important;
+    }
+    .stepPage3C2 {
+        width: 58rem !important;
+        left: -8rem !important;
+    }
+    .stepPage3C3 {
+        width: 33rem !important;
+    }
+    img#stepPage3C3 {
+        top: 22rem !important;
+        left: 1rem !important;
+    }
+
+    /* for page 9  */
+    .stepPage4C1 {
+        width: 52rem !important;
+        top: -14rem !important;
+    }
+    .stepPage4C2 {
+        width: 55rem !important;
+        top: 2rem !important;
+        left: -8rem !important;
+    }
+    #step4pagec3 {
+        top: 22rem !important;
+        left: 2rem !important;
+        width: 39rem !important;
+    }
+
+    /* for page 10  */
+    .stepP5C1 {
+        width: 32rem !important;
+    }
+    .stepP5C2 {
+        width: 54rem !important;
+        top: 3rem !important;
+        left: -8rem !important;
+    }
+    #step5pagec3 {
+        top: 22rem !important;
+        width: 45rem !important;
+        left: 2rem !important;
+    }
+
+    /* for page 11  */
+    .page11_main-content {
+        position: absolute;
+        left: -2rem;
+        top: 23rem;
+    }
+    .page11-footer {
+        position: absolute;
+        bottom: 10rem;
+    }
+    /* for page 12  */
+    .page12-content > p {
+        font-size: 14px;
+        color: #754D25;
+        font-weight: 600;
+    }
+    img.page11-main-img1 {
+        position: absolute;
+        top: 0rem;
+        left: 39rem;
+        height: 46rem;
+        width: 25rem;
+    }
+    img.page11-main-img2 {
+        position: absolute;
+        top: 0rem;
+        left: 58rem;
+        width: 33rem;
+        height: 49.5rem;
+    }
+    img.page11-main-img3 {
+        position: absolute;
+        top: 0rem;
+        left: 75rem;
+        height: 46rem;
+        width: 35rem;
+    }
+    img.page11-main-img4 {
+        position: absolute;
+        top: 0rem;
+        height: 46rem;
+        width: 39rem;
+        left: 93.5rem;
+    }
+    img.page11-main-img5 {
+        position: absolute;
+        top: 0rem;
+        left: 113.5rem;
+        width: 40rem;
+        height: 46rem;
+    }
+    .page11-left-content > img {
+        width: 10rem;
+        margin: 1rem 0rem;
+        margin-right: -2rem;
+    }
+    .page11-left-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 27.5rem;
+        margin-top: -3rem;
+    }
+    img#page1c3 {
+        top: 20rem !important;
+        left: 2rem !important;
+        width: 40rem !important;
+    }
+    img#page1c2 {
+        width: 42rem !important;
+    }
+}
+
+
+
+
+
+img#page1c2 {
+    width: 37rem !important;
+}
